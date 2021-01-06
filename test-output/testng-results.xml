@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HybridFramework_V1.0" duration-ms="35298" started-at="2021-01-06T13:13:16 AEDT" finished-at="2021-01-06T13:13:51 AEDT">
+    <groups>
+    </groups>
+    <test name="BankingApp Test" duration-ms="35298" started-at="2021-01-06T13:13:16 AEDT" finished-at="2021-01-06T13:13:51 AEDT">
+      <class name="com.hf.tests.TC_001_testLogin">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.hf.tests.TC_001_testLogin@30a3107a]" name="setUp" is-config="true" duration-ms="10491" started-at="2021-01-06T13:13:16 AEDT" finished-at="2021-01-06T13:13:27 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLoginfeature()[pri:0, instance:com.hf.tests.TC_001_testLogin@30a3107a]" name="testLoginfeature" duration-ms="6245" started-at="2021-01-06T13:13:27 AEDT" finished-at="2021-01-06T13:13:33 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginfeature -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hf.tests.TC_001_testLogin@30a3107a]" name="tearDown" is-config="true" duration-ms="901" started-at="2021-01-06T13:13:33 AEDT" finished-at="2021-01-06T13:13:34 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hf.tests.TC_001_testLogin -->
+      <class name="com.hf.tests.TC_AddCustomer_004">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.hf.tests.TC_AddCustomer_004@33c7e1bb]" name="setUp" is-config="true" duration-ms="8196" started-at="2021-01-06T13:13:34 AEDT" finished-at="2021-01-06T13:13:42 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hf.tests.TC_AddCustomer_004@33c7e1bb]" name="addCustomer" duration-ms="5847" started-at="2021-01-06T13:13:45 AEDT" data-provider="AddCustomer" finished-at="2021-01-06T13:13:50 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Imran]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[03]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[08]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Riverview Street]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[NSW]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2114]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[414145352]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[niit.imran@gmail.com]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Cpassword@1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hf.tests.TC_AddCustomer_004@33c7e1bb]" name="tearDown" is-config="true" duration-ms="1076" started-at="2021-01-06T13:13:50 AEDT" finished-at="2021-01-06T13:13:51 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hf.tests.TC_AddCustomer_004 -->
+    </test> <!-- BankingApp Test -->
+  </suite> <!-- HybridFramework_V1.0 -->
+</testng-results>

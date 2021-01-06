@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="HybridFramework_V1.0">
+
+	<listeners>
+		<listener class-name="com.hf.utilities.Reporting" />
+	</listeners>
+
+	<test name="BankingApp Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.hf.tests.TC_001_testLogin" /> 
+		<!--  	<class name="com.hf.tests.TC_LoginDDT_002" /> 
+			<class name="com.hf.tests.TC_ValidateAddCustomerTitle_003" /> -->
+			<class name="com.hf.tests.TC_AddCustomer_004" /> 
+
+		</classes>
+
+	</test>
+
+</suite>
